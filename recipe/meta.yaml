@@ -1,5 +1,5 @@
 {% set name = "cashews" %}
-{% set version = "7.4.0" %}
+{% set version = "7.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cashews-{{ version }}.tar.gz
-  sha256: c9d22b9b9da567788f232374a5de3b30ceed1e5c24085c96d304b696df0dcbd8
+  sha256: 9d4ac7b0d0e20ec96680af60ae15dc26c19ccc267baa84a472c54bef86a93a8a
 
 build:
   noarch: python
